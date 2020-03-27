@@ -1,0 +1,30 @@
+{
+  "name": "mk-stats-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "./node_modules/.bin/nodemon ."
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xingrz/mk-stats-api.git"
+  },
+  "author": "XiNGRZ <chenxingyu92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingrz/mk-stats-api/issues"
+  },
+  "homepage": "https://github.com/xingrz/mk-stats-api#readme"
+}
